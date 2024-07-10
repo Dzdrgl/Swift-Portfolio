@@ -18,7 +18,11 @@ In this section, explain what the project aims to achieve, who it is intended fo
 
 Include screenshots related to the project here. Use the following Markdown syntax to add images:
 
-<img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/africa-main.png?raw=true">
+<div style="display:flex; justify-content:space-between; align-items:center;">
+    <img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/africa-main.png?raw=true">
+    <img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/africa-map.png?raw=true">
+    <img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/africa-video-list.png?raw=true">
+</div>
 
 ## Frameworks Used
 
