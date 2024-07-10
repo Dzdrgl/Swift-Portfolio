@@ -51,11 +51,121 @@ These learnings have not only enhanced the functionality of the Africa app but a
 Below are specific code examples demonstrating key functionalities and solutions implemented in the Africa App:
 
 
+## ContentView Description
+
+The `ContentView` structure defines the main view of the Africa app and offers the user the option to view animals in either a list or grid display. It features the ability to switch between two user interface modes: list view and grid view. Users can toggle between these modes using buttons located on the toolbar.
+
+### Main Features and Functions:
+
+- **Dynamic Grid Layout**: Users can adjust the number of columns in the grid by tapping the toolbar buttons, which dynamically update the `gridLayout` array based on the selected number of columns.
+  
+- **View Mode Toggle**: The `isActive` state determines the current view mode (list or grid) of the user interface. This state can be toggled by the buttons, updating the corresponding view.
+  
+- **Haptic Feedback**: Provides medium-intensity haptic feedback during user interactions, specifically when selections are made.
+  
+- **View Switching**: Users can switch between list and grid views by clicking icons on the toolbar. This functionality is managed by the `gridSwitch` function.
+  
+- **Navigation**: Each animal is linked to its detailed information through a `NavigationLink`, which displays the details in `AnimalDetailView`.
+
+This structure offers users a flexible way to explore animals while effectively utilizing SwiftUI's dynamic and responsive user interface capabilities. It provides an interactive and user-friendly interface that allows users to personalize their in-app navigation experience.
 
 ```swift
-/ Custom Cover Button for CoverTabView. This component is used with TabView to enable navigation between tabs by swiping or tapping the buttons. It automatically hides when reaching the end of the tabs.
+struct ContentView: View {
+    //MARK: PROPERTIES
+    @State private var isActive:Bool = false
+    @State private var selectedImageIndex: Int = 0
+    
+    let animals:[Animal]
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
+    
+     //DYNAMIC GRID LAYOUT
+    @State private var gridLayout:[GridItem] = [GridItem(.flexible())]
+    @State private var gridColumn:Int = 1
+    @State private var toolBarIcon:String = "square.grid.2x2"
+    
+    func gridSwitch(){
+        gridLayout = Array(repeating: .init(.flexible()), count: gridLayout.count % 3 + 1)
+        gridColumn = gridLayout.count
+        
+        switch gridColumn {
+        case 1:
+            toolBarIcon = "rectangle.grid.1x2"
+        case 2:
+            toolBarIcon = "square.grid.2x2"
+        case 3:
+            toolBarIcon = "square.grid.3x2"
+        default:
+            toolBarIcon = "square.grid.2x2"
+        }
+    }
+   
+    //MARK: BODY
+    var body: some View {
+        NavigationStack{
+            Group{
+                if !isActive{
+                    List{
+                        CoverImageView(selectedImageIndex: $selectedImageIndex)
+                            .frame(height: 300)
+                            .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                        ForEach(animals){ animal in
+                            NavigationLink(destination:AnimalDetailView(animal: animal)){
+                                AnimalListItemView(animal: animal)
+                            }// :LINK
+                        }// :LOOP
+                    } // :LIST
+                    .listStyle(.inset)
+                }else{
+                    ScrollView(.vertical,showsIndicators: false){
+                        LazyVGrid(columns: gridLayout,alignment:.center) {
+                            ForEach(animals){ animal in
+                                NavigationLink(destination: AnimalDetailView(animal: animal)) {
+                                    AnimalGridItemView(image: animal.image)
+                                }
+                            }// :LOOP
+                        }// :GRID
+                        .padding(10)
+                        .animation(.easeIn,value:toolBarIcon)
+                    }// :SCROLL
+                }// :CONDITION
+                    
+            }// :GROUP
+            .navigationTitle("Africa")
+            .navigationBarTitleDisplayMode(.large)
+            .toolbar{
+                ToolbarItem(placement: .topBarTrailing) {
+                    HStack(spacing: 16, content: {
+                        //list
+                        Button(action: {
+                            isActive = false
+                            haptics.impactOccurred()
+                        }, label: {
+                            Image(systemName: "square.fill.text.grid.1x2")
+                                .font(.title2)
+                                .foregroundStyle(isActive ? .primary : Color.accentColor)
+                        })
+                        //GRID
+                        Button(action: {
+                            isActive = true
+                            haptics.impactOccurred()
+                            gridSwitch()
+                        }, label: {
+                            Image(systemName: toolBarIcon)
+                                .font(.title2)
+                                .foregroundStyle(isActive ? Color.accentColor : Color.primary)
+                        })
+                    })// :HSTACK
+                }// :BUTTONS
+            }// :TOOLBAR
+            
+        }// :NAVIGATION
+        
+    }
+}
+```
 
-
+- Custom Cover Button for CoverTabView. This component is used with TabView to enable navigation between tabs by swiping or tapping the buttons. It automatically hides when reaching the end of the tabs.
+```swift
 struct CoverButtonView: View {
     let systemName: String
     let action: () -> Void
@@ -100,3 +210,6 @@ struct CoverImageView: View {
         }//: ZSTACK
     }
 }
+```
+
+
