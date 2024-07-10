@@ -18,9 +18,8 @@ In this section, explain what the project aims to achieve, who it is intended fo
 
 Include screenshots related to the project here. Use the following Markdown syntax to add images:
 
-<img width="300" alt="main-view" src="[assets/africa-main.png](https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/africa-main.png?raw=true)">
+<img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/africa-main.png?raw=true">
 
-![main-view](assets/africa-main.png)
 ## Frameworks Used
 
 List the technologies and frameworks utilized in the development of the project. For example:
