@@ -18,7 +18,7 @@ In this section, explain what the project aims to achieve, who it is intended fo
 
 Include screenshots related to the project here. Use the following Markdown syntax to add images:
 
-![Description of Screenshot](url-to-image)
+![Description of Screenshot](https://github.com/Dzdrgl/SwiftPortfolio/issues/1#issue-2400765723)
 
 ## Frameworks Used
 
