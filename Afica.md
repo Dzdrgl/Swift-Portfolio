@@ -18,7 +18,7 @@ In this section, explain what the project aims to achieve, who it is intended fo
 
 Include screenshots related to the project here. Use the following Markdown syntax to add images:
 
-![Description of Screenshot]([https://github.com/Dzdrgl/SwiftPortfolio/issues/1#issue-2400765723](https://private-user-images.githubusercontent.com/65073963/347422594-ab7567d2-356d-4598-a3b1-73d9cc9b227f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MTg3NTIsIm5iZiI6MTcyMDYxODQ1MiwicGF0aCI6Ii82NTA3Mzk2My8zNDc0MjI1OTQtYWI3NTY3ZDItMzU2ZC00NTk4LWEzYjEtNzNkOWNjOWIyMjdmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDEzMzQxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJjMGVkOThhMmIyNWRlYTVkMzcxZTYzYzNjOTk5YjMwMmQ4YTkwNjQxNzUyODU4NDFhODRhN2Y1MmM4NGI1ZGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.j5efIGPAyHJrkUZECoWfYkCXR1SMdTOM78geYaouE-w))
+<img width="475" alt="login" src="https://github.com/Dzdrgl/TakasMobil/assets/65073963/43c615dd-e6f4-4333-84f5-6dcc84fa2a9b">
 
 ## Frameworks Used
 
