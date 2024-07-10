@@ -18,7 +18,7 @@ In this section, explain what the project aims to achieve, who it is intended fo
 
 Include screenshots related to the project here. Use the following Markdown syntax to add images:
 
-<img width="475" alt="login" src="https://github.com/Dzdrgl/TakasMobil/assets/65073963/43c615dd-e6f4-4333-84f5-6dcc84fa2a9b">
+<img width="300" alt="main-view" src="assets/africa-main.png">
 
 ## Frameworks Used
 
