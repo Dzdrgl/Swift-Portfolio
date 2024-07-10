@@ -20,6 +20,7 @@ Include screenshots related to the project here. Use the following Markdown synt
 
 <img width="300" alt="main-view" src="assets/africa-main.png">
 
+![main-view](assets/africa-main.png)
 ## Frameworks Used
 
 List the technologies and frameworks utilized in the development of the project. For example:
