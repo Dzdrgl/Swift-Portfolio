@@ -15,10 +15,10 @@ The ToDo App allows users to easily take simple notes in both dark and light mod
 ## Screenshots
 
 <div style="display:flex; justify-content:space-between; align-items:center;">
-    <img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-dark.png?raw=true">
-    <img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-light.png?raw=true">
-    <img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-newItem.png?raw=true">
-  <img width="300" alt="main-view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-widget.png?raw=true">
+    <img width="300" alt="todo-dark" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-dark.png?raw=true">
+    <img width="300" alt="todo-light" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-light.png?raw=true">
+    <img width="300" alt="todo-newItem" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-newItem.png?raw=true">
+  <img width="300" alt="todo-widget" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/todo-widget.png?raw=true">
 </div>
 
 ## Frameworks Used
