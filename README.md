@@ -10,6 +10,6 @@ Welcome to my repository where I showcase a collection of iOS applications devel
 
 The Africa app provides a detailed and interactive experience showcasing the diverse wildlife of Africa. Users can explore various animal species through rich multimedia content including photos, videos, and maps.
 
-[Learn more about the Africa App](Africa.md)
+[Learn more about the Africa App](apps/AfricaApp.md)
 
 ---
