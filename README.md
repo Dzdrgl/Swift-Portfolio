@@ -19,4 +19,4 @@ The Africa app provides a detailed and interactive experience showcasing the div
 
 The ToDo App allows users to easily manage their daily tasks. It features a user-friendly interface that supports both dark and light modes, offers animations, haptic feedback, and sounds to enhance user interactions. Users can add, edit, and delete tasks with ease.
 
-[Learn more about the ToDo App](apps/ToDoApp.md)
+[Learn more about the ToDo App](apps/TodoApp.md)
