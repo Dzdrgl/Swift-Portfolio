@@ -5,6 +5,7 @@ Welcome to my repository where I showcase a collection of iOS applications devel
 ## Applications
 
 - [Africa App](#africa-app)
+- [ToDo App](#todo-app)
 
 ### Africa App
 
@@ -13,3 +14,9 @@ The Africa app provides a detailed and interactive experience showcasing the div
 [Learn more about the Africa App](apps/AfricaApp.md)
 
 ---
+
+### ToDo App
+
+The ToDo App allows users to easily manage their daily tasks. It features a user-friendly interface that supports both dark and light modes, offers animations, haptic feedback, and sounds to enhance user interactions. Users can add, edit, and delete tasks with ease.
+
+[Learn more about the ToDo App](apps/ToDoApp.md)
