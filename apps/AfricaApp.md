@@ -43,6 +43,8 @@ Throughout the development of the Africa app, I gained significant insights and 
 - **Video Content Management with AVKit**: Developed proficiency in using AVKit for loading and displaying video content smoothly, ensuring a seamless multimedia experience for users.
 
 - **Data Handling and JSON Integration with Foundation**: Gained expertise in handling JSON data, which involved decoding JSON into model structures efficiently. This skill is crucial for working with data-driven features in iOS apps.
+- **State Management in SwiftUI with @Binding and @State**:Enhanced understanding of state management in SwiftUI using `@Binding` and `@State`. These tools helped manage local and shared state within the app effectively, allowing for dynamic updates to the UI in response to user interactions and data changes. `@State` is used for owning and managing local data, while `@Binding` creates a two-way binding to properties owned by parent views, enabling components to share and mutate state:
+
 
 These learnings have not only enhanced the functionality of the Africa app but also contributed to my overall growth as a software developer, particularly in the areas of UI design and multimedia content management.
 
