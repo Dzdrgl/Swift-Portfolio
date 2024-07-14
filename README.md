@@ -5,7 +5,7 @@ Welcome to my repository where I showcase a collection of iOS applications devel
 ## Applications
 
 - [Africa App](#africa-app)
-- [ToDo App](#todo-app)
+- [Todo App](#todo-app)
 
 ### Africa App
 
