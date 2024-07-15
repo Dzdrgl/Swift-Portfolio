@@ -15,7 +15,7 @@ The Landmarks App is designed to help users discover prominent natural features 
 ## Screenshots
 
 <div style="display:flex; justify-content:space-between; align-items:center;">
-    <img width="300" alt="featured view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/landmarks-featured.png?raw=true">
+    <img width="300" alt="featured view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/landmarks-main.png?raw=true">
     <img width="300" alt="detail view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/landmarks-detail.png?raw=true">
     <img width="300" alt="settings view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/landmarks-settings.png?raw=true">
     <img width="300" alt="settings view" src="https://github.com/Dzdrgl/SwiftPortfolio/blob/main/assests/landmarks-badge.png?raw=true">
