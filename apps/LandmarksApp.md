@@ -75,7 +75,7 @@ struct ContentView: View {
     }
 }
 ```
-###Model Data Management
+### Model Data Management
 This class manages the data model of the app, leveraging ObservableObject to handle dynamic UI updates. It loads and categorizes landmark data, making extensive use of Swift's @Published for reactive updates.
 ```swift
 final class ModelData: ObservableObject {
@@ -95,7 +95,7 @@ final class ModelData: ObservableObject {
     }
 }
 ```
-###Custom Integration
+### Custom Integration
 This snippet demonstrates how to create a custom UIButton and UIPageView in SwiftUI, using UIViewRepresentable to integrate UIKit components effectively into SwiftUI, bridging the gap between the two UI frameworks.
 ```swift
 struct MyButtonView:UIViewRepresentable{
@@ -171,7 +171,7 @@ struct PageControl: UIViewRepresentable {
     }
 }
 ```
-###Dynamic Shape Drawing
+### Dynamic Shape Drawing
 This view defines a custom shape using Path and GeometryReader, illustrating advanced graphical rendering capabilities within SwiftUI.
 ```swift
 struct BadgeSymbol: View {
@@ -222,7 +222,7 @@ struct BadgeSymbol: View {
 }
 ```
 
-###Transition and Animation Extensions
+### Transition and Animation Extensions
 These extensions enhance the UI with custom transitions and animations, providing a richer interactive experience by defining a move-and-fade transition and a ripple effect animation, respectively.
 ```swift
 extension AnyTransition {
