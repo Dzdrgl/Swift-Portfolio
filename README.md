@@ -22,8 +22,13 @@ The Todo App allows users to easily manage their daily tasks. It features a user
 
 [Learn more about the ToDo App](apps/TodoApp.md)
 
+
+---
 ### Landmarks App
 
 The Landmarks App is an interactive guide that allows users to explore significant natural landmarks like mountains, rivers, and lakes. It provides two primary viewing modes—a grid and a list—which help users navigate through the various categories of landmarks effectively. The app not only offers detailed information on each landmark but also integrates maps for geographical insights, enhancing the user experience with interactive exploration.
 
 [Learn more about the Landmarks App](apps/LandmarksApp.md)
+
+
+---
